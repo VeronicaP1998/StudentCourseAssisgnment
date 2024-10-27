@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Naffco.tblCourse>
+
+<p>
+    <a class="btn btn-danger" href="/Course/Create">Create Course</a>
+
+
+</p>
+<table class="table table-bordered">
+    <tr class="text-center">
+        <th>
+            @Html.DisplayName("Course ID")
+        </th>
+        <th>
+            @Html.DisplayName("Course Name")
+        </th>
+        <th>
+            @Html.DisplayName("Description")
+        </th>
+        <th></th>
+    </tr>
+    @if (Model != null)
+    {
+
+        foreach (var item in Model)
+        {
+            <tr class="text-center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { CourseID = item.CourseID }, new { @class = "btn btn-danger" }) |
+
+                    @Html.ActionLink("Delete", "Delete", new { CourseID = item.CourseID }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+
+    }
+</table>
+
+@if (TempData["result1"] != null)
+{
+    <script type="text/javascript">
+        alert("Course Saved Successfully");
+    </script>
+}
+@if (TempData["EditCourse"] != null)
+{
+    <script type="text/javascript">
+        alert("Student Edited Successfully");
+    </script>
+}
+@if (TempData["DeleteStudent"] != null)
+{
+    <script type="text/javascript">
+        alert("Student Deleted Sucessfully")
+    </script>
+}

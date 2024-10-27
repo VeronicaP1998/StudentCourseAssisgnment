@@ -1,0 +1,49 @@
+﻿@model Naffco.Models.EnrollStudent
+
+@using (Html.BeginForm())
+{    
+    @Html.AntiForgeryToken()
+    <div class="container">
+     
+            <div class="row d-flex justify-content-center text-center">
+                <h4>Student Enrollment</h4>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <b> @Html.Label("Select Student", htmlAttributes: new { @class = "control-label" })</b>
+                        <div class="col-md-10">
+                            @Html.ListBoxFor(m => m.SelectedStudentId, Model.StudentList)
+                            @Html.ValidationMessageFor(model => model.SelectedStudentId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <b>@Html.Label("Select Course", htmlAttributes: new { @class = "control-label" })</b>
+                        <div class="col-md-10">
+                            @Html.ListBoxFor(m => m.SelectedCourseId, Model.CourseList)
+                            @Html.ValidationMessageFor(model => model.SelectedCourseId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row p-2">
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Submit" class="btn btn-danger" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+
+@if (TempData["EnrollStudent"] != null)
+{
+    <script type="text/javascript">
+        alert(@TempData["EnrollStudent"].ToString());
+    </script>
+}

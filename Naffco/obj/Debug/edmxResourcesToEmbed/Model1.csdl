@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NaffcoDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblCourse">
+    <Key>
+      <PropertyRef Name="CourseID" />
+    </Key>
+    <Property Name="CourseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblStdCourses" Relationship="Self.FK_tblStdCourses_tblCourse" FromRole="tblCourse" ToRole="tblStdCourses" />
+  </EntityType>
+  <EntityType Name="tblStdCours">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblCourse" Relationship="Self.FK_tblStdCourses_tblCourse" FromRole="tblStdCourses" ToRole="tblCourse" />
+    <NavigationProperty Name="tblStudent" Relationship="Self.FK_tblStdCourses_tblStudent" FromRole="tblStdCourses" ToRole="tblStudent" />
+  </EntityType>
+  <EntityType Name="tblStudent">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MobileNum" Type="String" MaxLength="14" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblStdCourses" Relationship="Self.FK_tblStdCourses_tblStudent" FromRole="tblStudent" ToRole="tblStdCourses" />
+  </EntityType>
+  <Association Name="FK_tblStdCourses_tblCourse">
+    <End Role="tblCourse" Type="Self.tblCourse" Multiplicity="1" />
+    <End Role="tblStdCourses" Type="Self.tblStdCours" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCourse">
+        <PropertyRef Name="CourseID" />
+      </Principal>
+      <Dependent Role="tblStdCourses">
+        <PropertyRef Name="CourseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStdCourses_tblStudent">
+    <End Role="tblStudent" Type="Self.tblStudent" Multiplicity="1" />
+    <End Role="tblStdCourses" Type="Self.tblStdCours" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStudent">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="tblStdCourses">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StudentDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblCourses" EntityType="Self.tblCourse" />
+    <EntitySet Name="tblStdCourses" EntityType="Self.tblStdCours" />
+    <EntitySet Name="tblStudents" EntityType="Self.tblStudent" />
+    <AssociationSet Name="FK_tblStdCourses_tblCourse" Association="Self.FK_tblStdCourses_tblCourse">
+      <End Role="tblCourse" EntitySet="tblCourses" />
+      <End Role="tblStdCourses" EntitySet="tblStdCourses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStdCourses_tblStudent" Association="Self.FK_tblStdCourses_tblStudent">
+      <End Role="tblStudent" EntitySet="tblStudents" />
+      <End Role="tblStdCourses" EntitySet="tblStdCourses" />
+    </AssociationSet>
+    <FunctionImport Name="CheckForExistingStudentEnrollment" ReturnType="Collection(NaffcoDBModel.CheckForExistingStudentEnrollment_Result)">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+      <Parameter Name="CourseID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CreateCourse">
+      <Parameter Name="CourseName" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CreateStudent">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="StudentName" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="MobileNum" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteCourse">
+      <Parameter Name="CourseID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteStudent">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EditCourse">
+      <Parameter Name="CourseID" Mode="In" Type="Int32" />
+      <Parameter Name="CourseName" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="EditStudent">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="MobileNum" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetEnrolledStudents" ReturnType="Collection(NaffcoDBModel.GetEnrolledStudents_Result)">
+      <Parameter Name="CourseID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetStudentCourses" ReturnType="Collection(NaffcoDBModel.GetStudentCourses_Result)">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="StudentEnrollment">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+      <Parameter Name="CourseID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetCourseList" ReturnType="Collection(NaffcoDBModel.GetCourseList_Result)" />
+    <FunctionImport Name="GetStudentList" ReturnType="Collection(NaffcoDBModel.GetStudentList_Result)" />
+    <FunctionImport Name="GetCourseByID" ReturnType="Collection(NaffcoDBModel.GetCourseByID_Result)">
+      <Parameter Name="CourseID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetStudentByID" ReturnType="Collection(NaffcoDBModel.GetStudentByID_Result)">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetAllStudentCourses" ReturnType="Collection(NaffcoDBModel.GetAllStudentCourses_Result)" />
+  </EntityContainer>
+  <ComplexType Name="CheckForExistingStudentEnrollment_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetEnrolledStudents_Result">
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+    <Property Type="String" Name="StudentName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNum" Nullable="true" MaxLength="14" />
+    <Property Type="String" Name="CourseName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetStudentCourses_Result">
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+    <Property Type="String" Name="StudentName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNum" Nullable="true" MaxLength="14" />
+    <Property Type="String" Name="CourseName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetCourseList_Result">
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="String" Name="CourseName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetStudentList_Result">
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+    <Property Type="String" Name="StudentName" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="MobileNum" Nullable="false" MaxLength="14" />
+    <Property Type="String" Name="City" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetCourseByID_Result">
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="String" Name="CourseName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetStudentByID_Result">
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+    <Property Type="String" Name="StudentName" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="MobileNum" Nullable="false" MaxLength="14" />
+    <Property Type="String" Name="City" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetAllStudentCourses_Result">
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+    <Property Type="String" Name="StudentName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MobileNum" Nullable="true" MaxLength="14" />
+    <Property Type="String" Name="CourseName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="100" />
+  </ComplexType>
+</Schema>

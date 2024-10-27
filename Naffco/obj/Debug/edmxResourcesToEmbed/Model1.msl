@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NaffcoDBModelStoreContainer" CdmEntityContainer="StudentDBEntities">
+    <EntitySetMapping Name="tblCourses">
+      <EntityTypeMapping TypeName="NaffcoDBModel.tblCourse">
+        <MappingFragment StoreEntitySet="tblCourse">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStdCourses">
+      <EntityTypeMapping TypeName="NaffcoDBModel.tblStdCours">
+        <MappingFragment StoreEntitySet="tblStdCourses">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStudents">
+      <EntityTypeMapping TypeName="NaffcoDBModel.tblStudent">
+        <MappingFragment StoreEntitySet="tblStudent">
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="MobileNum" ColumnName="MobileNum" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CheckForExistingStudentEnrollment" FunctionName="NaffcoDBModel.Store.CheckForExistingStudentEnrollment">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.CheckForExistingStudentEnrollment_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CreateCourse" FunctionName="NaffcoDBModel.Store.CreateCourse" />
+    <FunctionImportMapping FunctionImportName="CreateStudent" FunctionName="NaffcoDBModel.Store.CreateStudent" />
+    <FunctionImportMapping FunctionImportName="DeleteCourse" FunctionName="NaffcoDBModel.Store.DeleteCourse" />
+    <FunctionImportMapping FunctionImportName="DeleteStudent" FunctionName="NaffcoDBModel.Store.DeleteStudent" />
+    <FunctionImportMapping FunctionImportName="EditCourse" FunctionName="NaffcoDBModel.Store.EditCourse" />
+    <FunctionImportMapping FunctionImportName="EditStudent" FunctionName="NaffcoDBModel.Store.EditStudent" />
+    <FunctionImportMapping FunctionImportName="GetEnrolledStudents" FunctionName="NaffcoDBModel.Store.GetEnrolledStudents">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetEnrolledStudents_Result">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobileNum" ColumnName="MobileNum" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStudentCourses" FunctionName="NaffcoDBModel.Store.GetStudentCourses">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetStudentCourses_Result">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobileNum" ColumnName="MobileNum" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="StudentEnrollment" FunctionName="NaffcoDBModel.Store.StudentEnrollment" />
+    <FunctionImportMapping FunctionImportName="GetCourseList" FunctionName="NaffcoDBModel.Store.GetCourseList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetCourseList_Result">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStudentList" FunctionName="NaffcoDBModel.Store.GetStudentList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetStudentList_Result">
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="MobileNum" ColumnName="MobileNum" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetCourseByID" FunctionName="NaffcoDBModel.Store.GetCourseByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetCourseByID_Result">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStudentByID" FunctionName="NaffcoDBModel.Store.GetStudentByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetStudentByID_Result">
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="MobileNum" ColumnName="MobileNum" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllStudentCourses" FunctionName="NaffcoDBModel.Store.GetAllStudentCourses">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NaffcoDBModel.GetAllStudentCourses_Result">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobileNum" ColumnName="MobileNum" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

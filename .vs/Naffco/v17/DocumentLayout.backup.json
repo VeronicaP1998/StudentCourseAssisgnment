@@ -1,0 +1,563 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\getstudentlist_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\getstudentlist_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\student\\getstudentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\student\\getstudentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\models\\getstudentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\models\\getstudentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\getstudentcourses_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\getstudentcourses_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\models\\getstudentcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\models\\getstudentcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\student\\getstudentandcoursedetailslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\student\\getstudentandcoursedetailslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\models\\getcourseslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\models\\getcourseslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\getcourselist_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\getcourselist_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\course\\getcourselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\course\\getcourselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\student\\enrollstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\student\\enrollstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\models\\enrollstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\models\\enrollstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\dataaccesslayer\\coursedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\dataaccesslayer\\coursedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\dataaccesslayer\\studentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\dataaccesslayer\\studentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\tblstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\tblstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\tblstdcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\tblstdcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\tblcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\tblcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\views\\student\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\views\\student\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|c:\\users\\veronicablesswin\\source\\repos\\naffco\\naffco\\content\\bootstrap-grid.rtl.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6F6BF8E-D2A8-47C1-8CF6-4E485D15AC3E}|Naffco\\Naffco.csproj|solutionrelative:naffco\\content\\bootstrap-grid.rtl.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetStudentCourses_Result.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\GetStudentCourses_Result.cs",
+              "RelativeDocumentMoniker": "Naffco\\GetStudentCourses_Result.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\GetStudentCourses_Result.cs",
+              "RelativeToolTip": "Naffco\\GetStudentCourses_Result.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:13:04.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetStudentList.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\GetStudentList.cs",
+              "RelativeDocumentMoniker": "Naffco\\Models\\GetStudentList.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\GetStudentList.cs",
+              "RelativeToolTip": "Naffco\\Models\\GetStudentList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:33:43.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetStudentList.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\GetStudentList.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Student\\GetStudentList.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\GetStudentList.cshtml*",
+              "RelativeToolTip": "Naffco\\Views\\Student\\GetStudentList.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T14:38:21.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetStudentList_Result.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\GetStudentList_Result.cs",
+              "RelativeDocumentMoniker": "Naffco\\GetStudentList_Result.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\GetStudentList_Result.cs",
+              "RelativeToolTip": "Naffco\\GetStudentList_Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:33:09.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Model1.edmx",
+              "RelativeDocumentMoniker": "Naffco\\Model1.edmx",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Naffco\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-26T12:10:46.036Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Naffco\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Naffco\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:06:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Naffco\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Naffco\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAiwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:10:11.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetStudentCourses.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\GetStudentCourses.cs",
+              "RelativeDocumentMoniker": "Naffco\\Models\\GetStudentCourses.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\GetStudentCourses.cs",
+              "RelativeToolTip": "Naffco\\Models\\GetStudentCourses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:14:33.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetStudentAndCourseDetailsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\GetStudentAndCourseDetailsList.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Student\\GetStudentAndCourseDetailsList.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\GetStudentAndCourseDetailsList.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Student\\GetStudentAndCourseDetailsList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T09:03:37.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:21:08.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Model1.cs",
+              "RelativeDocumentMoniker": "Naffco\\Model1.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Model1.cs",
+              "RelativeToolTip": "Naffco\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:27:39.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetCoursesList.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\GetCoursesList.cs",
+              "RelativeDocumentMoniker": "Naffco\\Models\\GetCoursesList.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\GetCoursesList.cs",
+              "RelativeToolTip": "Naffco\\Models\\GetCoursesList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:34:25.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetCourseList_Result.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\GetCourseList_Result.cs",
+              "RelativeDocumentMoniker": "Naffco\\GetCourseList_Result.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\GetCourseList_Result.cs",
+              "RelativeToolTip": "Naffco\\GetCourseList_Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:34:35.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetCourseList.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Course\\GetCourseList.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Course\\GetCourseList.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Course\\GetCourseList.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Course\\GetCourseList.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T20:27:57.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T15:42:18.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnrollStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\EnrollStudent.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Student\\EnrollStudent.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\EnrollStudent.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Student\\EnrollStudent.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T15:58:42.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EnrollStudent.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\EnrollStudent.cs",
+              "RelativeDocumentMoniker": "Naffco\\Models\\EnrollStudent.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Models\\EnrollStudent.cs",
+              "RelativeToolTip": "Naffco\\Models\\EnrollStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:08:05.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T20:17:52.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:30:34.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseDAL.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\DataAccessLayer\\CourseDAL.cs",
+              "RelativeDocumentMoniker": "Naffco\\DataAccessLayer\\CourseDAL.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\DataAccessLayer\\CourseDAL.cs",
+              "RelativeToolTip": "Naffco\\DataAccessLayer\\CourseDAL.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowCcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:26:53.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Naffco\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Naffco\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowGYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:15:35.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentDAL.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\DataAccessLayer\\StudentDAL.cs",
+              "RelativeDocumentMoniker": "Naffco\\DataAccessLayer\\StudentDAL.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\DataAccessLayer\\StudentDAL.cs",
+              "RelativeToolTip": "Naffco\\DataAccessLayer\\StudentDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:26:36.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "tblStdCours.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\tblStdCours.cs",
+              "RelativeDocumentMoniker": "Naffco\\tblStdCours.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\tblStdCours.cs",
+              "RelativeToolTip": "Naffco\\tblStdCours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:27:36.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "tblStudent.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\tblStudent.cs",
+              "RelativeDocumentMoniker": "Naffco\\tblStudent.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\tblStudent.cs",
+              "RelativeToolTip": "Naffco\\tblStudent.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAtwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:09:41.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T14:56:02.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:06:36.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T14:56:04.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Naffco\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T11:29:12.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Naffco\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Content\\Site.css",
+              "RelativeToolTip": "Naffco\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T20:39:49.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "tblCourse.cs",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\tblCourse.cs",
+              "RelativeDocumentMoniker": "Naffco\\tblCourse.cs",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\tblCourse.cs",
+              "RelativeToolTip": "Naffco\\tblCourse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T13:15:16.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\styles.css",
+              "RelativeDocumentMoniker": "Naffco\\Views\\Student\\styles.css",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Views\\Student\\styles.css",
+              "RelativeToolTip": "Naffco\\Views\\Student\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T20:39:07.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "bootstrap-grid.rtl.min.css",
+              "DocumentMoniker": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Content\\bootstrap-grid.rtl.min.css",
+              "RelativeDocumentMoniker": "Naffco\\Content\\bootstrap-grid.rtl.min.css",
+              "ToolTip": "C:\\Users\\VeronicaBlesswin\\source\\repos\\Naffco\\Naffco\\Content\\bootstrap-grid.rtl.min.css",
+              "RelativeToolTip": "Naffco\\Content\\bootstrap-grid.rtl.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-26T20:39:44.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

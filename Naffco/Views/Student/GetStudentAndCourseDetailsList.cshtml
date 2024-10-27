@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Naffco.GetAllStudentCourses_Result>
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<div class="container rounded">
+    <div class="row d-flex justify-content-center bg-light">
+
+        <div class="row p-2">
+            <div class="col-2">
+                <label class="form-label">
+                    <b>Student Name :</b>
+                </label>
+            </div>
+            <div class="col-2">
+                <input type="text" id="txtstudentname" class="form-control" />
+            </div>
+            <div class="col-2">
+                <label class="form-label">
+                    <b>Course Name :</b>
+                </label>
+            </div>
+            <div class="col-2">
+                <input type="text" id="txtcoursename" class="form-control" />
+            </div>
+            <div class="col-4">
+                <a href="" onclick="this.href = '/Student/GetSearchResults?StudentName=' + document.getElementById('txtstudentname').value + '&CourseName=' + document.getElementById('txtcoursename').value" class="btn btn-danger">Search</a>
+                <a class="btn btn-danger" href="/Student/EnrollStudent">Enroll Student</a>
+
+            </div>
+        </div>
+     
+        <div>
+
+            <table class="table table-bordered" id="dtExample">
+                <thead>
+                    <tr class="text-center">
+                        <th>
+                            @Html.DisplayName("Course ID")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Student ID")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Student Name")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Email")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Mobile Number")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Course Name")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Description")
+                        </th>
+
+                    </tr>
+                </thead>
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr class="text-center">
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CourseID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.StudentID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.StudentName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MobileNum)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CourseName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Description)
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    }
+                }
+
+
+            </table>
+
+        </div>
+    </div>
+</div>
+@if (TempData["EnrollStudent"] != null)
+{
+    <script type="text/javascript">
+        alert('@Html.Raw(TempData["EnrollStudent"])')
+    </script>
+}
+
+
+
+
